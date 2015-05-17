@@ -1,0 +1,26 @@
+{
+  "name": "vodafone-worker",
+  "version": "0.0.1",
+  "description": "Send vodafone balance and mobile internet usage as push notifications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "pushbots": "*",
+	"request":"*"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdullahDiaa/vodafone-eg-checker"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
